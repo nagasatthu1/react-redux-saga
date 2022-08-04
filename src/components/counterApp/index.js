@@ -4,7 +4,6 @@ import { makeSelectCount } from './selector';
 import { addCount, subtractCount, resetCount } from './action';
 import { compose } from 'redux';
 import { connect, useSelector } from 'react-redux';
-import Button from 'react-bootstrap/Button';
 
 function CounterApp(props) {
   const { onAdd, onSubtract, onReset, makeCount } = props;
